@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASTRO 132: Discover the Universe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; background-color: #0d1b2a; color: #e0e1dd; line-height: 1.6; text-align: center; }
+    header { background: linear-gradient(90deg, #1b263b, #415a77); padding: 2em 1em; }
+    header h1 { margin: 0; font-size: 2.5em; }
+    nav { background-color: #1b263b; display: flex; justify-content: center; padding: 1em; }
+    nav a { color: #e0e1dd; margin: 0 1.5em; text-decoration: none; font-weight: 600; transition: color 0.3s ease; }
+    nav a:hover { color: #a8dadc; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 3em 1em; }
+    .section { margin-bottom: 4em; }
+    h2 { font-size: 2em; margin-bottom: 0.5em; color: #f4f4f2; }
+    ul { padding-left: 1.5em; display: inline-block; text-align: left; }
+    li { margin-bottom: 0.5em; }
+    .merch-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2em; }
+    .merch-item { background: #1b263b; padding: 1.5em; border-radius: 12px; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .merch-item:hover { transform: translateY(-5px); box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+    .merch-item img { max-width: 100%; height: auto; margin-bottom: 1em; border-radius: 10px; }
+    .merch-item h3 { margin-top: 0; font-size: 1.5em; color: #a8dadc; }
+    .merch-item p { font-size: 1em; margin-bottom: 1em; }
+    button { background-color: #a8dadc; color: #0d1b2a; padding: 0.75em 1.5em; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 1em; transition: background-color 0.3s ease; }
+    button:hover { background-color: #61a5c2; }
+    footer { background-color: #1b263b; padding: 2em 1em; font-size: 0.9em; color: #778da9; margin-top: 4em; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ASTRO 132: Discover the Universe</h1>
+</header>
+
+<nav>
+  <a href="#overview">Overview</a>
+  <a href="#merch">Merch</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main class="container">
+  <section id="overview" class="section">
+    <h2>Class Overview</h2>
+    <p>
+      Embark on a cosmic journey with ASTRO 132! This course delves into the mysteries of the universe, from the explosive births of stars to the enigmatic pull of black holes.
+    </p>
+    <p>
+      ASTRO 132 is designed for students of all backgrounds who are fascinated by the wonders of the night sky. Through a dynamic combination of lectures, planetarium experiences, and real-world observations, you'll learn the fundamental principles of astrophysics and cosmology. Discover how stars evolve, how galaxies collide, and how the universe itself began and continues to expand.
+    </p>
+    <p>
+      Professor Mark Reiser brings the cosmos to life with engaging storytelling, vivid demonstrations, and real research opportunities. Students will not only absorb theoretical knowledge but also gain practical experience in astronomical observation techniques and data analysis. Whether you dream of becoming an astrophysicist or simply want to appreciate the universe on a deeper level, ASTRO 132 offers an unforgettable academic adventure.
+    </p>
+    <p>
+      What you'll experience:
+    </p>
+    <ul>
+      <li>Captivating lectures by Professor Mark Reiser</li>
+      <li>Immersive planetarium sessions</li>
+      <li>Hands-on telescope observations</li>
+    </ul>
+    <p>
+      Join ASTRO 132 and let your curiosity guide you across the stars. Your voyage into the unknown starts here.
+    </p>
+  </section>
+
+  <section id="merch" class="section">
+    <h2>Official ASTRO 132 Merch</h2>
+    <div class="merch-grid">
+
+      <div class="merch-item">
+        <img src="https://via.placeholder.com/400x250?text=ASTRO+132+Poster" alt="ASTRO 132 Poster">
+        <h3>Official ASTRO 132 Poster</h3>
+        <p>Bring the wonders of the universe to your space with our beautifully designed ASTRO 132 poster.</p>
+        <button>Buy for $15</button>
+      </div>
+
+      <div class="merch-item">
+        <img src="https://via.placeholder.com/400x250?text=HR+Diagram+Hat" alt="HR Diagram Hat">
+        <h3>HR Diagram Hat</h3>
+        <p>Stay shaded and stylish with this cap featuring a vibrant Hertzsprung-Russell diagram design.</p>
+        <button>Buy for $25</button>
+      </div>
+
+      <div class="merch-item">
+        <img src="https://via.placeholder.com/400x250?text=HR+Diagram+Tote+Bag" alt="HR Diagram Tote Bag">
+        <h3>HR Diagram Tote Bag</h3>
+        <p>Carry your essentials in cosmic style with this durable tote featuring a colorful HR diagram.</p>
+        <button>Buy for $18</button>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Have questions about ASTRO 132? Want to learn more? Reach out to us!</p>
+    <p>Email: <a href="mailto:astro132@university.edu" style="color: #a8dadc;">astro132@university.edu</a></p>
+    <p>Phone: (555) 123-4567</p>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2025 ASTRO 132. All rights reserved. | Designed with passion for discovery</p>
+</footer>
+
+</body>
+</html>
